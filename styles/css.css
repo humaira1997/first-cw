@@ -135,22 +135,64 @@ section.my-plans {
     border-radius: 6px;
     background-color: #FFFFFF;
     border: 0;
-    
+
 }
-.grad-text{
+
+.grad-text {
 
     text-align: left;
     padding: 50px 50px 50px;
 
 }
 
-.grad-banner{
+.grad-banner {
     background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
     width: 1140px;
     height: 300px;
 }
-section.positive-mind{
+
+section.positive-mind {
     padding: 20px 200px 200px;
+}
+
+/* footer styles */
+
+section.future {
+    background: #151414;
+    width: 120%;
+    height: 450px;
+    display: flex;
+    gap: 500px;
+    padding: 130px 130px 230px 230px;
+
+}
+
+.f-txt {
+    width: 485px;
+    height: 317px;
+}
+
+.subs {
+    width: 325px;
+    height: 204px;
+}
+
+.f-t {
+    color: #FFFFFF;
+
+}
+
+.email {
+    margin-bottom: 20px;
+    border: 5px;
+    border-color: #F3F3F3;
+    border-radius: 3px;
+    background-color: #151414;
+    width: 100%;
+    padding: 18px 30px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #F3F3F3;
 }
