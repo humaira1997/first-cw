@@ -30,11 +30,12 @@
 }
 
 .banner {
+ 
     width: 120%;
     height: 100%;
-    left: 0px;
     top: 0px;
     position: relative;
+    padding: 0px 0px 0px 20px;
 }
 
 .banner-area {
@@ -61,7 +62,7 @@ section.prev-year-fails {
 .description {
     width: 416px;
     height: 400px;
-    padding: 200px 250px;
+    padding: 200px 220px;
 }
 
 .div-title2 {
@@ -157,10 +158,10 @@ section.positive-mind {
 
 section.future {
     background: #151414;
-    width: 120%;
-    height: 450px;
+    width: 95%;
+    height: 80%;
     display: flex;
-    gap: 500px;
+    gap: 400px;
     padding: 130px 130px 230px 230px;
 
 }
