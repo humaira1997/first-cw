@@ -43,49 +43,48 @@
     position: absolute;
 }
 
-
-
 /* middle part styles */
-.middle-description {}
+
+section.prev-year-fails {
+
+    padding: 100px 100px 200px 280px;
+    display: flex;
+}
+
+.img {
+    width: 569px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+}
+
+.description {
+    width: 416px;
+    height: 400px;
+    padding: 200px 250px;
+}
 
 .div-title2 {
 
     font-weight: 700;
     font-size: 40px;
     color: #151414;
-    line-height: 1.2;
-
+    /* line-height: 1.2; */
 }
 
 .div-description2 {
     font-weight: 400;
     font-size: 25px;
-    line-height: 1.4;
+    /* line-height: 1.4; */
 }
-
 .list {
     width: 240px;
     height: 26px;
-    left: 862px;
-    top: 1450px;
-
-    line-height: 2;
+    line-height: 1.8;
+font-size: 15px;
 }
-
-/* prev years fails */
-section.prev-year-fails {
-
-    text-align: left;
-    display: flex;
-}
-
-.middle-description {
-    padding: 230px 180px;
-
-}
-
-.middle-part {
-    display: flex;
+ul{
+    list-style-image: url();
 }
 
 /* my plans styles */
@@ -195,4 +194,8 @@ section.future {
     font-weight: 400;
     font-size: 18px;
     color: #F3F3F3;
+}
+
+.anchor {
+    margin-right: 15px;
 }
